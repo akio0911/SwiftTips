@@ -1,5 +1,5 @@
 # SwiftTips
 
-Swiftを使う上でのTipsをまとめていきます
+Swift Tips
 
 
