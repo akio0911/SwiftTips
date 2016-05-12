@@ -7,6 +7,7 @@ struct Data1 {
     var count: Int
     var unit: String
     
+    // Long computed property
     var attributedText: NSAttributedString {
         let result = NSMutableAttributedString()
         
@@ -35,6 +36,7 @@ struct Data1 {
 
 Data1(count: 27, unit: "inch").attributedText
 
+// Helper operator
 func +(text1: NSAttributedString, text2: NSAttributedString) -> NSAttributedString{
     let result = NSMutableAttributedString()
     result.appendAttributedString(text1)
